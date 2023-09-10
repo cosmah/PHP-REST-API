@@ -1,0 +1,26 @@
+{
+    "name": "janat/php-rest-api",
+    "description": "A simple RESTful API in php",
+    "autoload": {
+        "psr-4": {
+            "Janat\\PhpRestApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cosmah",
+            "email": "ssekirya.cosma@student.utamu.ac.ug"
+        }
+    ],
+
+    "config": {
+        "platform": {
+            "php": "8.1.0"
+        }
+    },
+
+    "require": {
+        "php": ">=8.1.0",
+        "firebase/php-jwt": "^6.8" 
+    }
+}
